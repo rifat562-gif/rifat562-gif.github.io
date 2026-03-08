@@ -3,120 +3,63 @@
 
 @import "minima";
 
-/* =========================
-   NAVY THEME (Professional)
-   ========================= */
-
+/* ===== Color palette ===== */
 :root{
-  --navy-0:#070b14;
-  --navy-1:#0a1020;
-  --navy-2:#0b1f3b;
-  --navy-3:#123a6f;
-  --sky:#7cc4ff;
-  --line: rgba(255,255,255,.12);
+  --navy:#0b1f3b;     /* dark blue */
+  --navy2:#123a6f;    /* hover */
+  --gold:#c9a227;     /* gold for name */
+  --line:#e5e7eb;     /* light border */
 }
 
-/* Background */
+/* White background everywhere */
 body{
-  background:
-    radial-gradient(900px 480px at 12% -10%, rgba(18,58,111,.35), transparent 60%),
-    radial-gradient(900px 480px at 100% 0%, rgba(124,196,255,.18), transparent 55%),
-    var(--navy-1);
-  color:#eaf1ff;
+  background:#ffffff !important;
+  color: var(--navy) !important;
 }
 
-/* Header / footer */
-.site-header, .site-footer{
-  background: rgba(10,16,32,.65);
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  backdrop-filter: blur(10px);
+/* Header white + clean border */
+.site-header{
+  background:#ffffff !important;
+  border-bottom: 1px solid var(--line) !important;
 }
 
-/* Wrapper content area */
-.page-content{
-  background: transparent;
-}
-
-/* Card-like content (make reading easy) */
-.wrapper{
-  max-width: 980px;
-}
-.post, .page-content .wrapper > *{
-  color:#eaf1ff;
-}
-
-/* Links */
-a, a:visited{ color: var(--sky); }
-a:hover{ color:#a6dbff; }
-
-/* Site title */
-.site-title, .site-title:visited{
-  color:#ffffff !important;
-  font-weight: 800;
-  letter-spacing: .2px;
-}
-
-/* Nav links */
+/* Menu links dark navy */
 .site-nav .page-link{
-  color:#d7e6ff !important;
+  color: var(--navy) !important;
   font-weight: 700;
 }
 .site-nav .page-link:hover{
-  color:#a6dbff !important;
+  color: var(--navy2) !important;
+  text-decoration: none;
 }
 
-/* Make the menu dropdown readable on mobile */
-.site-nav{
-  background: transparent;
-}
-.site-nav .trigger{
-  background: rgba(10,16,32,.95);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 10px 12px;
+/* Site title (top-left) dark navy */
+.site-title, .site-title:visited{
+  color: var(--navy) !important;
+  font-weight: 800;
 }
 
-/* Headings */
-h1, h2, h3{
-  color:#ffffff;
-}
-.page-heading{
-  color:#ffffff;
-}
-
-/* Lists / text */
-p, li{
-  color:#d7e6ff;
-}
-strong{ color:#ffffff; }
-
-/* Code blocks */
-pre, code{
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.10);
-  border-radius: 10px;
-  color:#eaf1ff;
+/* HOME PAGE: make the main page heading GOLD (your name) */
+.home .page-heading{
+  color: var(--gold) !important;
+  font-weight: 900;
+  letter-spacing: .2px;
 }
 
-/* Horizontal rules */
-hr{
-  border: none;
-  height: 1px;
-  background: var(--line);
+/* Content links */
+a, a:visited{ color: var(--navy2); }
+a:hover{ color: var(--navy); }
+
+/* Footer clean */
+.site-footer{
+  background:#ffffff !important;
+  border-top: 1px solid var(--line) !important;
 }
 
-.nav-trigger:checked ~ .trigger { border-color: rgba(124,196,255,.25); }
-
-.site-nav .page-link {
-  padding: 8px 10px;
-  border-radius: 10px;
+/* Slightly nicer spacing */
+.page-content{
+  padding-top: 26px;
 }
-
-.site-nav .page-link:hover{
-  background: rgba(255,255,255,.06);
-}
-
 .page-content .wrapper{
-  max-width: 900px;
+  max-width: 960px;
 }
