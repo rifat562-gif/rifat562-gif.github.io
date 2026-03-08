@@ -3,9 +3,6 @@ email: rifata562@gmail.com
 description: Robotics • Computer Vision • Industrial IoT • Data-Driven Decision Support
 theme: minima
 
-minima:
-  skin: solarized-dark
-
 header_pages:
   - education.md
   - publications.md
