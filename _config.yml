@@ -1,0 +1,9 @@
+title: Rifat Ahmed
+email: rifata562@gmail.com
+theme: minima
+
+header_pages:
+  - education.md
+  - publications.md
+  - projects.md
+  - hobby.md
