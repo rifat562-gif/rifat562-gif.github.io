@@ -3,67 +3,8 @@
 
 @import "minima";
 
-/* ===== WHITE + NAVY + GOLD ===== */
-:root{
-  --navy:#0b1f3b;
-  --navy2:#123a6f;
-  --gold:#c9a227;
-  --line:#e5e7eb;
-}
+/* TEST LINE (must appear in main.css) */
+:root{ --navy-test: #0b1f3b; }
 
-/* Force white background */
-html, body{
-  background:#ffffff !important;
-  color: var(--navy) !important;
-}
-
-/* Header */
-.site-header{
-  background:#ffffff !important;
-  border-bottom: 1px solid var(--line) !important;
-}
-
-/* Top-left site title (Rifat Ahmed in header) */
-.site-title, .site-title:visited{
-  color: var(--navy) !important;
-  font-weight: 900 !important;
-}
-
-/* Menu items */
-.site-nav .page-link{
-  color: var(--navy) !important;
-  font-weight: 800 !important;
-}
-.site-nav .page-link:hover{
-  color: var(--navy2) !important;
-  text-decoration: none !important;
-}
-
-/* GOLD name on HOME page heading */
-.home .page-heading{
-  color: var(--gold) !important;
-  font-weight: 900 !important;
-}
-
-/* Also make first big H1 gold on home (extra safety) */
-.home h1, .home h1.page-heading{
-  color: var(--gold) !important;
-}
-
-/* Footer */
-.site-footer{
-  background:#ffffff !important;
-  border-top: 1px solid var(--line) !important;
-}
-.site-footer, .site-footer p{
-  color: var(--navy) !important;
-}
-
-/* Links */
-a, a:visited{ color: var(--navy2) !important; }
-a:hover{ color: var(--navy) !important; }
-
-/* Make content text darker */
-.page-content, .post-content, .page-content p, .page-content li{
-  color: #1f2a44 !important;
-}
+/* White background */
+body{ background:#fff !important; }
