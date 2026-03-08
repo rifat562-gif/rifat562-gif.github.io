@@ -1,0 +1,45 @@
+---
+---
+
+@import "minima";
+
+/* Navy accents */
+:root{
+  --navy:#0b1f3b;     /* main navy */
+  --navy2:#123a6f;    /* hover navy */
+  --ice:#3aa7ff;      /* small highlight */
+}
+
+/* Background (subtle, not purple) */
+body{
+  background:
+    radial-gradient(900px 480px at 12% -10%, rgba(11,31,59,.22), transparent 60%),
+    radial-gradient(900px 480px at 100% 0%, rgba(58,167,255,.12), transparent 55%),
+    #0a0f1a;
+  color: #e9eef7;
+}
+
+/* Main content cards */
+.site-header, .site-footer, .post, .page-content, .wrapper{
+  background: transparent;
+}
+
+/* Title + links */
+.site-title{ color: #ffffff !important; font-weight: 800; }
+a, a:visited{ color: #7cc4ff; }
+a:hover{ color: var(--ice); }
+
+/* Navbar */
+.site-nav .page-link{ color:#d7e3f4; font-weight:700; }
+.site-nav .page-link:hover{ color: var(--ice); }
+
+/* Make content area readable */
+.page-content .wrapper, .post-content, .page-content{
+  color:#e9eef7;
+}
+
+/* Optional: nicer code blocks */
+pre, code{
+  background: rgba(255,255,255,.06);
+  border-radius: 10px;
+}
