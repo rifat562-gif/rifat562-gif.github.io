@@ -3,43 +3,105 @@
 
 @import "minima";
 
-/* Navy accents */
+/* =========================
+   NAVY THEME (Professional)
+   ========================= */
+
 :root{
-  --navy:#0b1f3b;     /* main navy */
-  --navy2:#123a6f;    /* hover navy */
-  --ice:#3aa7ff;      /* small highlight */
+  --navy-0:#070b14;
+  --navy-1:#0a1020;
+  --navy-2:#0b1f3b;
+  --navy-3:#123a6f;
+  --sky:#7cc4ff;
+  --line: rgba(255,255,255,.12);
 }
 
-/* Background (subtle, not purple) */
+/* Background */
 body{
   background:
-    radial-gradient(900px 480px at 12% -10%, rgba(11,31,59,.22), transparent 60%),
-    radial-gradient(900px 480px at 100% 0%, rgba(58,167,255,.12), transparent 55%),
-    #0a0f1a;
-  color: #e9eef7;
+    radial-gradient(900px 480px at 12% -10%, rgba(18,58,111,.35), transparent 60%),
+    radial-gradient(900px 480px at 100% 0%, rgba(124,196,255,.18), transparent 55%),
+    var(--navy-1);
+  color:#eaf1ff;
 }
 
-/* Main content cards */
-.site-header, .site-footer, .post, .page-content, .wrapper{
+/* Header / footer */
+.site-header, .site-footer{
+  background: rgba(10,16,32,.65);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(10px);
+}
+
+/* Wrapper content area */
+.page-content{
   background: transparent;
 }
 
-/* Title + links */
-.site-title{ color: #ffffff !important; font-weight: 800; }
-a, a:visited{ color: #7cc4ff; }
-a:hover{ color: var(--ice); }
-
-/* Navbar */
-.site-nav .page-link{ color:#d7e3f4; font-weight:700; }
-.site-nav .page-link:hover{ color: var(--ice); }
-
-/* Make content area readable */
-.page-content .wrapper, .post-content, .page-content{
-  color:#e9eef7;
+/* Card-like content (make reading easy) */
+.wrapper{
+  max-width: 980px;
+}
+.post, .page-content .wrapper > *{
+  color:#eaf1ff;
 }
 
-/* Optional: nicer code blocks */
+/* Links */
+a, a:visited{ color: var(--sky); }
+a:hover{ color:#a6dbff; }
+
+/* Site title */
+.site-title, .site-title:visited{
+  color:#ffffff !important;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+
+/* Nav links */
+.site-nav .page-link{
+  color:#d7e6ff !important;
+  font-weight: 700;
+}
+.site-nav .page-link:hover{
+  color:#a6dbff !important;
+}
+
+/* Make the menu dropdown readable on mobile */
+.site-nav{
+  background: transparent;
+}
+.site-nav .trigger{
+  background: rgba(10,16,32,.95);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+/* Headings */
+h1, h2, h3{
+  color:#ffffff;
+}
+.page-heading{
+  color:#ffffff;
+}
+
+/* Lists / text */
+p, li{
+  color:#d7e6ff;
+}
+strong{ color:#ffffff; }
+
+/* Code blocks */
 pre, code{
   background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.10);
   border-radius: 10px;
+  color:#eaf1ff;
+}
+
+/* Horizontal rules */
+hr{
+  border: none;
+  height: 1px;
+  background: var(--line);
 }
