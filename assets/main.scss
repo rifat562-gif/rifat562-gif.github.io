@@ -105,3 +105,14 @@ hr{
   height: 1px;
   background: var(--line);
 }
+
+.nav-trigger:checked ~ .trigger { border-color: rgba(124,196,255,.25); }
+
+.site-nav .page-link {
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.site-nav .page-link:hover{
+  background: rgba(255,255,255,.06);
+}
