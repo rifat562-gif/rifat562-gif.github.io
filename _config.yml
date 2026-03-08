@@ -4,7 +4,7 @@ description: Robotics • Computer Vision • Industrial IoT • Data-Driven Dec
 theme: minima
 
 minima:
-  skin: solarized
+  skin: solarized-dark
 
 header_pages:
   - education.md
