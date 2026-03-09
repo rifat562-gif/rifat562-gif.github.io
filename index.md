@@ -9,7 +9,6 @@ title:
   <span>HI,</span>
   <span>I AM</span>
   <span>RIFAT</span>
-  <span>AHMED</span>
 </h1>
   <p class="role">Building intelligent robotics &<br>practical AI systems<br>for real-world automation.</p>
     <a class="btn" href="/assets/Rifat_Ahmed_CV.pdf" download>Download CV</a>
