@@ -237,3 +237,9 @@ a:hover{ color: var(--navy) !important; }
 .site-footer .contact-list .p-name{
   display: none !important;
 }
+
+/* HOME: use wider/full layout instead of Minima narrow wrapper */
+body.home .page-content .wrapper{
+  max-width: 1200px !important;   /* increase width */
+  width: 92% !important;          /* responsive */
+}
