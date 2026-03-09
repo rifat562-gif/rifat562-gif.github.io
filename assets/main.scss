@@ -137,7 +137,8 @@ body.home .site-header .site-title:visited{
 
 /* keep text from becoming too wide */
 .hero .inner{ width: 100%; }
-.hero h1, .hero .role{ max-width: 720px; }
+.hero h1, .hero .role{ max-width: 100%; }
+.hero h1, .hero .role{ word-break: break-word; }
 
 .hero h1{
   margin: 0 0 10px 0;
