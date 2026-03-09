@@ -4,25 +4,22 @@
 @import "minima";
 
 /* =========================================
-   WHITE BACKGROUND • DEEP NAVY BLUE • GOLD NAME (HOME)
+   WHITE BACKGROUND • NAVY MENU • DARK RED NAME (HOME)
    ========================================= */
 
 :root{
-  /* More blue navy (not black) */
-  --navy:#0a2a5e;      /* main navy (bluer) */
-  --navy2:#1456b3;     /* hover/link navy-blue */
-  --gold:#c9a227;      /* gold for your name on HOME (top header) */
+  --navy:#0a2a5e;      /* blue navy (menu + headings) */
+  --navy2:#1456b3;     /* hover/link */
+  --red:#7a0f1a;       /* dark red for your name */
   --line:#e6edf6;      /* light border */
-  --text:#10233f;      /* body text (soft navy, not pure black) */
+  --text:#10233f;      /* body text */
 }
 
-/* White background everywhere */
 html, body{
   background:#ffffff !important;
   color: var(--text) !important;
 }
 
-/* Header: white bar + soft border */
 .site-header{
   background:#ffffff !important;
   border-bottom: 1px solid var(--line) !important;
@@ -35,13 +32,13 @@ html, body{
   letter-spacing: .2px;
 }
 
-/* Top-left site title (header) = GOLD only on HOME page */
+/* Top-left site title (header) = DARK RED only on HOME page */
 body.home .site-title,
 body.home .site-title:visited{
-  color: var(--gold) !important;
+  color: var(--red) !important;
 }
 
-/* Menu items (top right) = navy-blue */
+/* Menu links */
 .site-nav .page-link{
   color: var(--navy) !important;
   font-weight: 800 !important;
@@ -54,18 +51,18 @@ body.home .site-title:visited{
   text-decoration: none !important;
 }
 
-/* HOME page heading ("About") should stay navy-blue (NOT gold) */
+/* Home page heading ("About") stays navy */
 .home .page-heading{
   color: var(--navy) !important;
   font-weight: 900 !important;
   letter-spacing: .2px;
 }
 
-/* Content links */
+/* Links in content */
 a, a:visited{ color: var(--navy2) !important; }
 a:hover{ color: var(--navy) !important; }
 
-/* Footer: white + border */
+/* Footer */
 .site-footer{
   background:#ffffff !important;
   border-top: 1px solid var(--line) !important;
@@ -74,14 +71,6 @@ a:hover{ color: var(--navy) !important; }
   color: var(--text) !important;
 }
 
-/* Improve readability width */
 .page-content .wrapper{
   max-width: 960px;
-}
-
-/* Optional: cleaner code blocks */
-pre, code{
-  background: rgba(20,86,179,.06);
-  border: 1px solid rgba(20,86,179,.12);
-  border-radius: 10px;
 }
