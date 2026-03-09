@@ -20,34 +20,32 @@ title:
 
   <div class="about-grid">
     <div class="about-card">
-      <p>
-        I’m <b>Rifat Ahmed</b>, a B.Sc. graduate in <b>Mechatronics and Industrial Engineering (CUET)</b> with hands-on experience
-        building end-to-end systems in <b>robotics</b>, <b>computer vision</b>, and <b>data-driven decision support</b>.
-      </p>
+     <p>
+  I’m Rifat Ahmed, a B.Sc. graduate in Mechatronics and Industrial Engineering (CUET). I enjoy turning ideas into working systems—especially
+  where sensing, software, and decision-making meet.
+</p>
 
-      <p>
-        I’ve developed practical prototypes such as a <b>Raspberry Pi + OpenCV object-sorting robot</b>, built decision-support tools for
-        <b>retail inventory management</b> (forecasting + stockout-risk + EOQ/ROP), and deployed a <b>skin disease classification web app</b>
-        using a Flask API and a React frontend.
-      </p>
+<p>
+  My core interest is building reliable, real-world automation: giving machines the ability to perceive, reason, and act under practical constraints.
+  I’m comfortable moving across the stack—from data preparation and modeling to deployment and user-facing interfaces.
+</p>
 
-      <p>
-        My published work focuses on <b>network-connected condition monitoring</b> for EV induction motors using <b>ESP32</b> and
-        <b>Raspberry Pi</b> with multi-sensor data. I’m interested in research that bridges <b>sensing</b>, <b>machine learning</b>,
-        and <b>optimization</b> to build reliable systems in real-world environments.
-      </p>
+<p>
+  I like projects that have a clear purpose: making industrial processes safer, more efficient, and easier to monitor and control. I’m also motivated by
+  research problems where a small improvement in robustness or interpretability can make a system more trustworthy in practice.
+</p>
 
-      <p>
-        I’m currently preparing for fully funded graduate study and looking for opportunities in
-        <b>robot autonomy</b>, <b>industrial AI</b>, and <b>decision-making for complex engineered systems</b>.
-      </p>
+<p>
+  Outside of technical work, I value consistency and disciplined learning. I’m currently focused on strengthening my research profile and preparing for
+  graduate study, with the long-term goal of working on impactful robotics and intelligent systems.
+</p>
 
-      <p><b>Links:</b></p>
-      <ul>
-        <li><a href="https://github.com/rifat562-gif" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/rifat-ahmed-5b2a33321" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="mailto:rifata562@gmail.com">Email</a></li>
-      </ul>
+<p><b>Links:</b></p>
+<ul>
+  <li><a href="https://github.com/rifat562-gif" target="_blank" rel="noopener">GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/rifat-ahmed-5b2a33321" target="_blank" rel="noopener">LinkedIn</a></li>
+  <li><a href="mailto:rifata562@gmail.com">Email</a></li>
+</ul>
     </div>
 
     <div class="profile-img">
