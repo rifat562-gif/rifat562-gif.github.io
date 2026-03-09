@@ -232,3 +232,8 @@ a:hover{ color: var(--navy) !important; }
 .site-header a.site-title:visited{
   color: #7a0f1a !important;
 }
+
+/* Remove duplicate footer name line */
+.site-footer .contact-list .p-name{
+  display: none !important;
+}
