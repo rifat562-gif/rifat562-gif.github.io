@@ -11,7 +11,7 @@ title:
   <span>RIFAT</span>
   <span>AHMED</span>
 </h1>
-   <p class="role">Robotics, Computer Vision, and Applied Machine Learning for real-world systems.</p>
+  <p class="role">Building intelligent robotics and practical AI systems for real-world automation.</p>
     <a class="btn" href="/assets/Rifat_Ahmed_CV.pdf" download>Download CV</a>
   </div>
 </div>
