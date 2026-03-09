@@ -5,8 +5,13 @@ title:
 
 <div class="hero">
   <div class="inner">
-    <h1>HI, I AM RIFAT AHMED</h1>
-    <p class="role">Robotics • Computer Vision • Industrial IoT • Data-Driven Decision Support</p>
+    <h1 class="hero-title">
+  <span>HI,</span>
+  <span>I AM</span>
+  <span>RIFAT</span>
+  <span>AHMED</span>
+</h1>
+   <p class="role">Robotics, Computer Vision, and Applied Machine Learning for real-world systems.</p>
     <a class="btn" href="/assets/Rifat_Ahmed_CV.pdf" download>Download CV</a>
   </div>
 </div>
