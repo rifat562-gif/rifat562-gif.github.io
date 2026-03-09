@@ -224,3 +224,11 @@ a:hover{ color: var(--navy) !important; }
   .hero .role{ font-size: 16px; }
   .about-grid{ grid-template-columns: 1fr; }
 }
+
+/* FORCE: site title dark red on ALL pages */
+.site-header .site-title,
+.site-header .site-title:visited,
+.site-header a.site-title,
+.site-header a.site-title:visited{
+  color: #7a0f1a !important;
+}
