@@ -89,3 +89,126 @@ body.home .site-header .site-title:visited{
   color: #7a0f1a !important;
 }
 */
+
+/* =========================
+   HOME PAGE HERO + ABOUT
+   ========================= */
+
+.home .page-content{
+  padding-top: 0;
+}
+
+/* Full-width hero banner under the menu */
+.hero{
+  position: relative;
+  width: 100%;
+  height: 260px;              /* ~2–3 inch on desktop */
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(to right, rgba(255,255,255,.85), rgba(255,255,255,.55)),
+    url("/assets/img/hero.jpg") center/cover no-repeat;
+  opacity: 1;
+}
+
+/* make photo 30–40% visible */
+.hero::before{
+  filter: saturate(1) contrast(1);
+}
+.hero .inner{
+  position: relative;
+  z-index: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1{
+  margin: 0 0 10px 0;
+  font-size: 42px;
+  line-height: 1.1;
+  letter-spacing: .4px;
+}
+
+.hero .role{
+  margin: 0 0 18px 0;
+  font-size: 18px;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.hero .btn{
+  display:inline-block;
+  width: fit-content;
+  background: var(--navy);
+  color: #fff !important;
+  padding: 10px 14px;
+  border-radius: 12px;
+  text-decoration: none !important;
+  font-weight: 800;
+}
+.hero .btn:hover{
+  background: var(--navy2);
+}
+
+/* About section layout */
+.about-wrap{
+  max-width: 960px;
+  margin: 34px auto 0 auto;
+  padding: 0 16px;
+}
+
+.about-title{
+  text-align: center;
+  margin: 0 0 24px 0;
+  font-size: 30px;
+  letter-spacing: .2px;
+  color: var(--navy);
+}
+
+.about-grid{
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;   /* text left, photo right */
+  gap: 24px;
+  align-items: start;
+}
+
+.about-card{
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 18px 18px;
+  background: #fff;
+}
+
+.about-card p{
+  margin: 0 0 12px 0;
+}
+
+.profile-img{
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+.profile-img img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mobile responsive */
+@media (max-width: 900px){
+  .hero{ height: 240px; }
+  .hero h1{ font-size: 34px; }
+  .about-grid{ grid-template-columns: 1fr; }
+}
