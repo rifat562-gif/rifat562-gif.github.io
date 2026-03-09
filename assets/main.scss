@@ -74,3 +74,18 @@ a:hover{ color: var(--navy) !important; }
 .page-content .wrapper{
   max-width: 960px;
 }
+
+/* FORCE: make header name DARK RED (always wins) */
+.site-header .site-title,
+.site-header .site-title:visited,
+.site-header a.site-title,
+.site-header a.site-title:visited{
+  color: #7a0f1a !important;
+}
+
+/* (Optional) if you want ONLY on Home page, use this instead:
+body.home .site-header .site-title,
+body.home .site-header .site-title:visited{
+  color: #7a0f1a !important;
+}
+*/
