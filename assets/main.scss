@@ -3,16 +3,17 @@
 
 @import "minima";
 
-/* ===============================
-   WHITE BACKGROUND • NAVY MENU • GOLD NAME (HOME)
-   =============================== */
+/* =========================================
+   WHITE BACKGROUND • DEEP NAVY BLUE • GOLD NAME (HOME)
+   ========================================= */
 
 :root{
-  --navy:#0b1f3b;      /* dark navy */
-  --navy2:#123a6f;     /* hover navy */
-  --gold:#c9a227;      /* gold for name on home */
-  --line:#e5e7eb;      /* light border */
-  --text:#1f2a44;      /* body text */
+  /* More blue navy (not black) */
+  --navy:#0a2a5e;      /* main navy (bluer) */
+  --navy2:#1456b3;     /* hover/link navy-blue */
+  --gold:#c9a227;      /* gold for your name on HOME (top header) */
+  --line:#e6edf6;      /* light border */
+  --text:#10233f;      /* body text (soft navy, not pure black) */
 }
 
 /* White background everywhere */
@@ -21,20 +22,26 @@ html, body{
   color: var(--text) !important;
 }
 
-/* Header: clean white bar */
+/* Header: white bar + soft border */
 .site-header{
   background:#ffffff !important;
   border-bottom: 1px solid var(--line) !important;
 }
 
-/* Top-left site title (header) */
+/* Top-left site title (header) = navy by default */
 .site-title, .site-title:visited{
   color: var(--navy) !important;
   font-weight: 900 !important;
   letter-spacing: .2px;
 }
 
-/* Menu items (top right) */
+/* Top-left site title (header) = GOLD only on HOME page */
+body.home .site-title,
+body.home .site-title:visited{
+  color: var(--gold) !important;
+}
+
+/* Menu items (top right) = navy-blue */
 .site-nav .page-link{
   color: var(--navy) !important;
   font-weight: 800 !important;
@@ -43,27 +50,22 @@ html, body{
 }
 .site-nav .page-link:hover{
   color: var(--navy2) !important;
-  background: rgba(11,31,59,.06);
+  background: rgba(10,42,94,.08);
   text-decoration: none !important;
 }
 
-/* Home page main heading (make your name GOLD) */
+/* HOME page heading ("About") should stay navy-blue (NOT gold) */
 .home .page-heading{
-  color: var(--gold) !important;
+  color: var(--navy) !important;
   font-weight: 900 !important;
-  letter-spacing: .3px;
+  letter-spacing: .2px;
 }
 
-/* Also apply gold to first H1 on home (extra safety) */
-.home h1, .home h1.page-heading{
-  color: var(--gold) !important;
-}
-
-/* Links in content */
+/* Content links */
 a, a:visited{ color: var(--navy2) !important; }
 a:hover{ color: var(--navy) !important; }
 
-/* Footer clean */
+/* Footer: white + border */
 .site-footer{
   background:#ffffff !important;
   border-top: 1px solid var(--line) !important;
@@ -72,7 +74,14 @@ a:hover{ color: var(--navy) !important; }
   color: var(--text) !important;
 }
 
-/* Make content width nicer */
+/* Improve readability width */
 .page-content .wrapper{
   max-width: 960px;
+}
+
+/* Optional: cleaner code blocks */
+pre, code{
+  background: rgba(20,86,179,.06);
+  border: 1px solid rgba(20,86,179,.12);
+  border-radius: 10px;
 }
