@@ -21,25 +21,25 @@ title:
   <div class="about-grid">
     <div class="about-card">
      <p>
-  I’m Rifat Ahmed, a B.Sc. graduate in Mechatronics and Industrial Engineering (CUET). I enjoy turning ideas into working systems—especially
-  where sensing, software, and decision-making meet.
+  <p>
+  I’m Rifat Ahmed, a B.Sc. graduate in Mechatronics and Industrial Engineering (CUET). I enjoy turning ideas into working systems,
+  especially where sensing, software, and decision-making come together.
 </p>
 
 <p>
-  My core interest is building reliable, real-world automation: giving machines the ability to perceive, reason, and act under practical constraints.
-  I’m comfortable moving across the stack—from data preparation and modeling to deployment and user-facing interfaces.
+  My core interest is building reliable automation for real-world use. I like giving machines the ability to perceive, reason, and act under practical
+  constraints. I’m also comfortable working across the stack, from data preparation and modeling to deployment and user-facing interfaces.
 </p>
 
 <p>
-  I like projects that have a clear purpose: making industrial processes safer, more efficient, and easier to monitor and control. I’m also motivated by
-  research problems where a small improvement in robustness or interpretability can make a system more trustworthy in practice.
+  I’m drawn to projects with a clear purpose: making industrial processes safer, more efficient, and easier to monitor and control. I also enjoy research
+  problems where small improvements in robustness or interpretability can make a system more trustworthy in practice.
 </p>
 
 <p>
-  Outside of technical work, I value consistency and disciplined learning. I’m currently focused on strengthening my research profile and preparing for
-  graduate study, with the long-term goal of working on impactful robotics and intelligent systems.
+  Outside of technical work, I value consistency and disciplined learning. Right now, I’m focused on strengthening my research profile and preparing for
+  graduate study, with a long-term goal of contributing to impactful robotics and intelligent systems.
 </p>
-
 <p><b>Links:</b></p>
 <ul>
   <li><a href="https://github.com/rifat562-gif" target="_blank" rel="noopener">GitHub</a></li>
