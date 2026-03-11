@@ -243,3 +243,27 @@ body.home .page-content .wrapper{
   max-width: 1200px !important;   /* increase width */
   width: 92% !important;          /* responsive */
 }
+
+/* ===== Footer cleanup: remove name/email + center tagline ===== */
+
+/* Hide left footer contact column (name + email) */
+.site-footer .footer-col-1{
+  display: none !important;
+}
+
+/* Make remaining footer columns full width */
+.site-footer .footer-col-wrapper{
+  display: block !important;
+}
+
+/* Center the tagline (right column text) */
+.site-footer .footer-col-3{
+  width: 100% !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+/* Remove the footer heading title (optional, but usually looks cleaner) */
+.site-footer .footer-heading{
+  display: none !important;
+}
