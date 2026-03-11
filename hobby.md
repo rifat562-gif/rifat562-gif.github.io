@@ -4,30 +4,28 @@ title: Hobby
 permalink: /hobby/
 ---
 
-<div class="hobby-grid">
+# Photography
 
-  <div class="hobby-text">
-    <h2>Mobile Photography</h2>
+Photography is my quiet way of paying attention.  
+I’m drawn to natural light, open landscapes, and small details that people usually pass by.  
+I like waiting for the *right moment*—a soft sky, a clean reflection, or a balanced frame.  
+Most of my shots are nature-focused: greens after rain, calm horizons, and simple textures.  
+For me, it’s not only about a “beautiful photo”—it’s about the mood it carries.  
+I keep learning by experimenting with angles, light, and composition every time I shoot.
 
-    <p>I enjoy mobile photography because it helps me notice the small things.</p>
-    <p>I mostly capture nature—sky, trees, light, rain, and calm landscapes.</p>
-    <p>Most of my photos are unplanned; I stop when a scene feels right.</p>
-    <p>I like natural colors and simple framing, with minimal editing.</p>
-    <p>This hobby keeps me grounded and improves my attention to detail.</p>
-    <p>Below are a few landscape shots I captured on my phone.</p>
-  </div>
+---
 
-  <div class="hobby-gallery">
-    <img src="/assets/img/q1.jpg" alt="Nature photo q1">
-    <img src="/assets/img/q2.jpg" alt="Nature photo q2">
-    <img src="/assets/img/q3.jpg" alt="Nature photo q3">
-    <img src="/assets/img/q4.jpg" alt="Nature photo q4">
-    <img src="/assets/img/q5.jpg" alt="Nature photo q5">
-    <img src="/assets/img/q6.jpg" alt="Nature photo q6">
-    <img src="/assets/img/q7.jpg" alt="Nature photo q7">
-    <img src="/assets/img/q8.jpg" alt="Nature photo q8">
-    <img src="/assets/img/q9.jpg" alt="Nature photo q9">
-    <img src="/assets/img/q10.jpg" alt="Nature photo q10">
-  </div>
+## A few captures
 
+<div class="photo-grid">
+  <a href="/assets/img/q1.jpg" target="_blank"><img src="/assets/img/q1.jpg" alt="Photography 1"></a>
+  <a href="/assets/img/q2.jpg" target="_blank"><img src="/assets/img/q2.jpg" alt="Photography 2"></a>
+  <a href="/assets/img/q3.jpg" target="_blank"><img src="/assets/img/q3.jpg" alt="Photography 3"></a>
+  <a href="/assets/img/q4.jpg" target="_blank"><img src="/assets/img/q4.jpg" alt="Photography 4"></a>
+  <a href="/assets/img/q5.jpg" target="_blank"><img src="/assets/img/q5.jpg" alt="Photography 5"></a>
+  <a href="/assets/img/q6.jpg" target="_blank"><img src="/assets/img/q6.jpg" alt="Photography 6"></a>
+  <a href="/assets/img/q7.jpg" target="_blank"><img src="/assets/img/q7.jpg" alt="Photography 7"></a>
+  <a href="/assets/img/q8.jpg" target="_blank"><img src="/assets/img/q8.jpg" alt="Photography 8"></a>
+  <a href="/assets/img/q9.jpg" target="_blank"><img src="/assets/img/q9.jpg" alt="Photography 9"></a>
+  <a href="/assets/img/q10.jpg" target="_blank"><img src="/assets/img/q10.jpg" alt="Photography 10"></a>
 </div>
