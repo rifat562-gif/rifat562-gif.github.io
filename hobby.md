@@ -6,12 +6,11 @@ permalink: /hobby/
 
 # Photography
 
-Photography is my quiet way of paying attention.  
-I’m drawn to natural light, open landscapes, and small details that people usually pass by.  
-I like waiting for the *right moment*—a soft sky, a clean reflection, or a balanced frame.  
-Most of my shots are nature-focused: greens after rain, calm horizons, and simple textures.  
-For me, it’s not only about a “beautiful photo”—it’s about the mood it carries.  
-I keep learning by experimenting with angles, light, and composition every time I shoot.
+Photography is my quiet habit and a simple way of staying present. I love capturing sky, rivers, trees, and streets, especially when light changes the mood of a place. Sunrise and sunset are my favorite moments because everything feels softer, warmer, and more alive.
+
+Most of my photos are unplanned. I stop when something feels right, a reflection on water, a clean horizon, a dramatic cloud, or the calm after rain. I prefer natural colors and simple framing, with minimal editing. For me, a good photo is not only about beauty. It is about the feeling it holds.
+
+Over time, photography has taught me patience and attention to detail. I learned to wait, to adjust angles, and to look twice before pressing the shutter. It also helps me slow down when life feels busy. Below are a few photographs I captured and saved as small memories of places and moments.
 
 ---
 
