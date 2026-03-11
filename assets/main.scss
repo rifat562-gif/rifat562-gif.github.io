@@ -277,3 +277,30 @@ body.home .page-content .wrapper{
 .site-footer .footer-heading{
   display: none !important;
 }
+
+/* ===== Active nav tab highlighting (Minima) ===== */
+
+/* default */
+.site-nav .page-link{
+  border-bottom: 2px solid transparent;
+}
+
+/* Education */
+body.page-education .site-nav a[href="/education/"]{
+  border-bottom-color: var(--navy2);
+}
+
+/* Publications */
+body.page-publications .site-nav a[href="/publications/"]{
+  border-bottom-color: var(--navy2);
+}
+
+/* Projects */
+body.page-projects .site-nav a[href="/projects/"]{
+  border-bottom-color: var(--navy2);
+}
+
+/* Hobby */
+body.page-hobby .site-nav a[href="/hobby/"]{
+  border-bottom-color: var(--navy2);
+}
