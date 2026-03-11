@@ -338,4 +338,9 @@ body.page-hobby .site-nav a[href="/hobby/"]{
   .hobby-gallery img{ height: 160px; }
 }
 
+/* Hide the automatic page title under the navbar (Minima) */
+.page-content .post-header {
+  display: none !important;
+}
+
 
