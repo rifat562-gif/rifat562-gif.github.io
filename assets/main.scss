@@ -337,3 +337,13 @@ body.page-hobby .site-nav a[href="/hobby/"]{
   .hobby-grid{ grid-template-columns: 1fr; }
   .hobby-gallery img{ height: 160px; }
 }
+
+/* Remove the top header/menu bar everywhere */
+.site-header {
+  display: none !important;
+}
+
+/* Remove extra top spacing that was for the header */
+.page-content {
+  padding-top: 0 !important;
+}
