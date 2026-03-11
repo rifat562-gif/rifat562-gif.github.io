@@ -9,7 +9,6 @@ title:
       <span class="hi">HI</span>
       <span>I AM</span>
       <span>RIFAT</span>
-      <span>AHMED</span>
     </h1>
 
     <p class="role">
