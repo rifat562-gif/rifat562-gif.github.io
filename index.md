@@ -6,7 +6,7 @@ title:
 <div class="hero">
   <div class="inner">
     <h1 class="hero-title">
-      <span class="hi">HI,</span>
+      <span class="hi">HI</span>
       <span>I AM</span>
       <span>RIFAT</span>
       <span>AHMED</span>
