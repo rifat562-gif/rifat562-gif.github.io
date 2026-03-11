@@ -14,12 +14,6 @@ permalink: /education/
 - Industrial IoT and sensor-based monitoring  
 - Operations research and data-driven decision support  
 
-### Selected Coursework (Grouped)
-**Robotics / Control:** Robotics & Automation, Control Systems, Mechatronics  
-**Embedded / IoT:** Microcontrollers, Embedded Systems, Sensors & Instrumentation  
-**Industrial / OR:** Operations Research, Production & Operations Management, Industrial Engineering  
-**Computing / Analytics:** Programming, Data Analytics / Machine Learning (if applicable)
-
 ### Academic Involvement
 - Built hands-on prototypes and course projects combining sensing, control, and software.
 - Participated in robotics-related activities (workshops, project teams, competitions) and collaborative engineering work.
