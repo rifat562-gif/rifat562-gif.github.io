@@ -343,4 +343,41 @@ body.page-hobby .site-nav a[href="/hobby/"]{
   display: none !important;
 }
 
+/* Hobby page typography + photo grid */
+.page-content h1{
+  font-size: 54px;
+  letter-spacing: .2px;
+}
+
+.page-content p{
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 880px;
+}
+
+.photo-grid{
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.photo-grid img{
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.08);
+  transition: transform .15s ease;
+}
+
+.photo-grid img:hover{
+  transform: scale(1.01);
+}
+
+@media (max-width: 900px){
+  .page-content h1{ font-size: 40px; }
+  .photo-grid{ grid-template-columns: 1fr; }
+  .photo-grid img{ height: 220px; }
+}
 
