@@ -304,3 +304,36 @@ body.page-projects .site-nav a[href="/projects/"]{
 body.page-hobby .site-nav a[href="/hobby/"]{
   border-bottom-color: var(--navy2);
 }
+
+/* ===== Hobby page: text left, photo grid right ===== */
+.hobby-grid{
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.hobby-text h2{
+  margin: 0 0 10px 0;
+  color: var(--navy);
+}
+
+.hobby-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.hobby-gallery img{
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+@media (max-width: 900px){
+  .hobby-grid{ grid-template-columns: 1fr; }
+  .hobby-gallery img{ height: 160px; }
+}
