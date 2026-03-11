@@ -108,7 +108,6 @@ a:hover{ color: var(--navy) !important; }
     url("/assets/img/hero.jpg") center/cover no-repeat;
 }
 
-/* Hero content: RIGHT aligned, ~1/2 inch inside */
 .hero .inner{
   position: relative;
   z-index: 1;
@@ -118,15 +117,14 @@ a:hover{ color: var(--navy) !important; }
   width: 100%;
   box-sizing: border-box;
 
-padding: 40px 220px 40px 16px;   /* pushes content left */
+  padding: 40px 16px;          /* equal padding */
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
-  text-align: center;
+  align-items: center;          /* center */
+  text-align: center;           /* center */
 }
-
 /* Prevent RIGHT overflow of text */
 .hero h1,
 .hero .role{
