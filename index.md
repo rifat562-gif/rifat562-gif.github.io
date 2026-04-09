@@ -17,7 +17,7 @@ title:
       for real-world automation
     </p>
 
-    <a class="btn" href="/assets/Rifat_Ahmed_CV.pdf" download>Download CV</a>
+    <a class="btn" href="/assets/Rifat_Ahmed_CV_2026.pdf" download>Download CV</a>
   </div>
 </div>
 
