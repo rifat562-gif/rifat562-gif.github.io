@@ -435,19 +435,22 @@ section {
 }
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.9rem;
 }
 .gallery .photo-frame {
   aspect-ratio: 3 / 2;
   cursor: zoom-in;
 }
 .gallery .photo-frame:hover img { transform: scale(1.04); }
-@media (max-width: 900px) {
-  .gallery { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+@media (max-width: 1000px) {
+  .gallery { grid-template-columns: repeat(4, 1fr); }
 }
-@media (max-width: 540px) {
-  .gallery { grid-template-columns: 1fr; }
+@media (max-width: 800px) {
+  .gallery { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 560px) {
+  .gallery { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
 }
 
 /* lightbox */
@@ -578,7 +581,7 @@ footer .glyph {
   <!-- HERO -->
   <section class="hero" id="top">
     <div class="hero-content">
-      <div class="hero-meta">PhD Applicant — 2026 Cycle</div>
+      <div class="hero-meta">PhD Applicant &nbsp;&amp;&nbsp; Masters by Research</div>
       <h1>Rifat Ahmed,<br>building <em>resilient</em><br>intelligent systems.</h1>
       <p class="hero-intro">
         Mechatronics engineer working at the intersection of machine learning, industrial IoT,
@@ -588,6 +591,7 @@ footer .glyph {
       <div class="hero-links">
         <a href="mailto:rifata562@gmail.com">Email</a>
         <a href="cv.pdf" target="_blank">CV (PDF)</a>
+        <a href="https://orcid.org/0009-0000-2430-7400" target="_blank">ORCID</a>
         <a href="https://github.com/rifat562-gif" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/rifat-ahmed-5b2a33321" target="_blank">LinkedIn</a>
       </div>
@@ -607,47 +611,44 @@ footer .glyph {
   <!-- ABOUT -->
   <section id="about" class="reveal">
     <div class="section-label"><span class="num">01</span><span>About / Research</span></div>
-    <div class="row">
-      <div class="meta">Background</div>
-      <div class="about-content">
-        <!-- About-section portrait. Upload  about-photo.jpg  to replace. -->
-        <div class="photo-frame about-portrait">
-          <img src="about-photo.jpg" alt="Rifat Ahmed"
-               onload="this.parentElement.classList.add('loaded')"
-               onerror="this.classList.add('missing')">
-          <div class="placeholder">
-            <strong>About photo</strong>
-            Upload as<br>about-photo.jpg
-          </div>
+    <div class="about-content">
+      <!-- About-section portrait. Upload  about-photo.jpg  to replace. -->
+      <div class="photo-frame about-portrait">
+        <img src="about-photo.jpg" alt="Rifat Ahmed"
+             onload="this.parentElement.classList.add('loaded')"
+             onerror="this.classList.add('missing')">
+        <div class="placeholder">
+          <strong>About photo</strong>
+          Upload as<br>about-photo.jpg
         </div>
-        <div>
-          <div class="about-prose">
-            <p>
-              I recently completed my B.Sc. in Mechatronics and Industrial Engineering at
-              Chittagong University of Engineering &amp; Technology (CUET), where my thesis
-              applied Fuzzy AHP and BWM to facility-location problems for mobile manufacturing
-              in Bangladesh.
-            </p>
-            <p>
-              My research now focuses on combining deep learning with classical industrial
-              engineering — building systems that detect bearing faults across noisy operating
-              conditions, schedule production under partial observability, and remain robust
-              when the world stops behaving like the training set.
-            </p>
-            <p>
-              I am applying to PhD programs for the 2026 cycle to continue this work in a
-              research-lab environment.
-            </p>
-          </div>
-          <div class="interests">
-            <span>Smart Manufacturing</span>
-            <span>Machine Learning</span>
-            <span>Fault Detection</span>
-            <span>Industrial IoT</span>
-            <span>Computer Vision</span>
-            <span>Reinforcement Learning</span>
-            <span>Operations Research</span>
-          </div>
+      </div>
+      <div>
+        <div class="about-prose">
+          <p>
+            I recently completed my B.Sc. in Mechatronics and Industrial Engineering at
+            Chittagong University of Engineering &amp; Technology (CUET), where my thesis
+            applied Fuzzy AHP and BWM to facility-location problems for mobile manufacturing
+            in Bangladesh.
+          </p>
+          <p>
+            My research now focuses on combining deep learning with classical industrial
+            engineering — building systems that detect bearing faults across noisy operating
+            conditions, schedule production under partial observability, and remain robust
+            when the world stops behaving like the training set.
+          </p>
+          <p>
+            I am applying to PhD and Masters-by-Research programs to continue this work in a
+            research-lab environment.
+          </p>
+        </div>
+        <div class="interests">
+          <span>Smart Manufacturing</span>
+          <span>Machine Learning</span>
+          <span>Fault Detection</span>
+          <span>Industrial IoT</span>
+          <span>Computer Vision</span>
+          <span>Reinforcement Learning</span>
+          <span>Operations Research</span>
         </div>
       </div>
     </div>
@@ -707,7 +708,7 @@ footer .glyph {
   <!-- PROJECTS -->
   <section id="projects" class="reveal">
     <div class="section-label"><span class="num">03</span><span>Projects</span></div>
-    <h2 class="section-heading">Things I have built — <em>code on GitHub.</em></h2>
+    <h2 class="section-heading">Things I have built, <em>in detail.</em></h2>
 
     <div class="projects">
       <div class="project">
@@ -815,6 +816,10 @@ footer .glyph {
         <a href="mailto:rifata562@gmail.com">rifata562@gmail.com</a>
       </div>
       <div class="contact-card">
+        <div class="label">ORCID</div>
+        <a href="https://orcid.org/0009-0000-2430-7400" target="_blank">0009-0000-2430-7400</a>
+      </div>
+      <div class="contact-card">
         <div class="label">GitHub</div>
         <a href="https://github.com/rifat562-gif" target="_blank">github.com/rifat562-gif</a>
       </div>
@@ -838,7 +843,6 @@ footer .glyph {
 </div>
 
 <footer>
-  <span class="glyph">∗</span>
   Rifat Ahmed &nbsp;·&nbsp; 2026
 </footer>
 
